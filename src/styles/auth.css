@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.auth-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  margin-top: 100px;
+}
+
+.auth-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.auth-container input {
+  height: 45px;
+  font-size: 14px;
+}
+
+.auth-container button {
+  height: 45px;
+  font-weight: bold;
+}
+
+.auth-container a {
+  text-decoration: none;
+  color: #667eea;
+}
+
+.auth-container a:hover {
+  text-decoration: underline;
+}
